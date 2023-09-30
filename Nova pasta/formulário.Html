@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/> </head>
+    <link rel="stylesheet" type="text/css" href="STYLE.CSS/STYLE.CSS">
+    <title>FORMULÁRIO DE ACESSO</title>
+<body>
+    <form action class="formulario" method="post"></form>
+        <div class="form-image">
+        <img src="undraw_mobile_content_xvgr.png" width="300" height="250" >
+    </div>
+
+     
+        <div class="field">
+            <p> PREENCHA COM OS SEUS DADOS O FORMULÁRIO ABAIXO:</p>
+            <label for="nome">SEU NOME:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+            <label for="telefone">DATA DE NASCIMENTO:</label>
+            <input type="date" id="NASCIMENTO" name="NASCIMENTO" placeholder="Sua data de nascimento"required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">SEU TELEFONE:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(xx)xxxxx xxxx">
+        </div>
+        <div class="field">
+            <label for="email">SEU E-MAIL:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>DESEJA RECEBER NOSSAS NOTIFICAÇÕES?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">SUA MENSAGEM:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+        <input type="submit" name="acao" value="Enviar" onclick="msg()">
+            <script> function msg() {alert("FORMULÁRIO ENVIADO COM SUCESSO!!");}      
+            </script>
+    </form>
+
+
+
+</body>
+</html>
