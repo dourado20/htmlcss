@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:   rgb(196, 146, 243);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(77, 56, 97);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: rgba(223, 152, 255, 0.596);
+
+}
+h1{
+  color:   rgb(196, 146, 243);
+}
+p{
+    color:  rgb(196, 146, 243);
+    font-weight: 500;
+}
+
+.formLogin input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid   rgb(196, 146, 243);
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.formLogin label {
+    color:  rgb(196, 146, 243);
+    font-size: 15px;
+    font-weight: 500;
+}
+.formLogin a{
+    color:  rgb(196, 146, 243);
+}
+input[type=email]{
+    color:  rgb(196, 146, 243);
+}
+input[type=password]{
+    color:  rgb(196, 146, 243);
+}
+.btn {
+    color: rgb(77, 56, 97); 
+    background-color: rgb(196, 146, 243); 
+    font-size: 10px;
+    font-weight: 500;
+}
+.btn:hover {
+    transform: scale(1.05);
+    color: rgb(196, 146, 243);
+    background-color:   rgb(44, 26, 61); 
+}
+.apetar{
+    color: rgb(196, 146, 243); 
+    background-color: rgb(77, 56, 97);
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid  rgb(84, 31, 133);
+    border-radius: 10px;
+    box-shadow:  rgba(223, 152, 255, 0.596);
+
+}
+.apetar:hover {
+    transform: scale(1.05);
+    background-color:rgb(196, 146, 243); 
+    color:  rgb(77, 56, 97);
+}
+
